@@ -9,7 +9,6 @@ def buscar_no_cache(cache, entrada):
         print("[CACHE] Resultado encontrado no cache:")
         print(f"Tempo de execução: {time.time() - start_time:.4f} segundos")
         return resultado, True
-    print(f"Tempo de execução: {time.time() - start_time:.4f} segundos")
     return None, False
 
 def consultar_api(entrada):
